@@ -1,0 +1,5 @@
+<%# add navigation links to this file %>
+<%= render 'game/char_sheet' %>
+<% if session[:char_name] %>
+<li><%= link_to 'Sign Out', signout_path, method: 'delete' %></li>
+<% end %>

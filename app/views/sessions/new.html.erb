@@ -1,0 +1,24 @@
+<div class="row">
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-6">
+		<!-- Content -->
+		<h1 class="text-center">Legend Of the Dragon <span style="color: #CC0000">Ruby</span></h1>
+		<%= form_for(:session, url: sessions_path) do |f| %>
+			<%= f.label :email %>
+			<%= f.text_field :email, class: "form-control input-sm" %>
+
+			<%= f.label :password %>
+			<%= f.password_field :password, class: "form-control input-sm" %><br>
+
+			<%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
+		<% end %>
+
+		<p>New user? <%= link_to "Sign up now!", signup_path %></p>
+	</div>
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+
+</div>

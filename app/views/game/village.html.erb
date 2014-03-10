@@ -1,0 +1,32 @@
+<div class="row">
+	<div class="col-md-2">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-8">
+		<!-- Content -->
+		<h1 class="text-center">Village</h1>
+		<p class="lead"><span style="color: #CC0000"><%= session[:char_name] %></span>, you're on the Village's central square. The sun is high, but it isn't noon yet. The streets are crowded.</p>
+	</div>
+	<div class="col-md-2">
+		<!-- Spacer -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-2">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-2">
+		<!-- Navigation -->
+		<%= render 'navbar' %>
+	</div>
+	<div class="col-md-6">
+		<!-- Content -->
+		<span class="text-center">
+			<%= image_tag 'village.jpg' %>
+			<h6>Medieval Steampunk Village, Copyright <%= link_to 'tommyscottart', 'http://tommyscottart.deviantart.com/art/Medieval-Steampunk-Village-259887520' %></h6>
+		</span>
+	</div>
+	<div class="col-md-2">
+		<!-- Spacer -->
+	</div>
+</div>

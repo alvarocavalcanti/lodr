@@ -1,0 +1,31 @@
+<div class="row">
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-6">
+		<!-- Content -->
+		<% if @user.errors.any?
+			msg =  "<strong>" + pluralize(@user.errors.count, "error") + "</strong> prohibited
+		        this user from being saved:<br>" + @user.errors.full_messages.to_sentence
+			   	flash.now[:alert] = msg.html_safe %>
+	    <% end %>
+		<h1 class="text-center">Create a new User</h1>
+		<div class="text-left">
+			<%= form_for @user do |f| %>
+				<h3><%= f.label 'Name' %></h3>
+				<%= f.text_field :name, class: 'form-control input-sm' %>
+				<h3><%= f.label 'E-mail' %></h3>
+				<%= f.email_field :email, class: 'form-control input-sm' %>
+				<h3><%= f.label 'Password' %></h3>
+				<%= f.password_field :password, class: 'form-control input-sm' %>
+				<h3><%= f.label 'Password Confirmation' %></h3>
+				<%= f.password_field :password_confirmation, class: 'form-control input-sm' %><br>
+				<p><%= f.submit 'Create', class: 'btn btn-primary' %></p>
+			<% end %>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+
+</div>

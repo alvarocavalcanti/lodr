@@ -1,0 +1,22 @@
+<div class="row">
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+	<div class="col-md-6">
+		<!-- Content -->
+		<h1 class="text-center">Legend Of the Dragon <span style="color: #CC0000">Ruby</span></h1>
+		<p class="text-center">
+			<%= form_for @user do |f| %>
+				<h3><%= f.label 'E-mail' %></h3>
+				<%= f.email_field :email, class: 'input-large' %>
+				<h3><%= f.label 'Password' %></h3>
+				<%= f.password_field :password, class: 'input-large' %><br><br>
+				<p><%= f.submit 'Login', class: 'btn btn-primary' %></p>
+			<% end %>
+		</p>
+	</div>
+	<div class="col-md-3">
+		<!-- Spacer -->
+	</div>
+
+</div>

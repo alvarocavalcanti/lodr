@@ -34,8 +34,8 @@ Random equipaments are available on each visit.
 Random encounters. Upon engaging in one, the player may choose between three attack strategies:
 
 - __Turn by Turn__: Each turn must be resolved by the player, who has to choose between attack, drink a potion (if any) or try to escape (that takes into account the hero's AGI). __Rewards 100% XP__.
-- __Fight to Dea__th: The combat resolves automatically. But the hero does not drinks any potion or tries to escape. __Rewards 120% XP__.
-- __Safe Fight: __The combat resolves automatically. The hero keeps drinking health potions if any when the Life Points reach less than 20%, or tries to escape if there are no health potions. __Rewards 80% XP__.
+- __Fight to Death__: The combat resolves automatically. But the hero does not drinks any potion or tries to escape. __Rewards 120% XP__.
+- __Safe Fight__: The combat resolves automatically. The hero keeps drinking health potions if any when the Life Points reach less than 20%, or tries to escape if there are no health potions. __Rewards 80% XP__.
 
 ##### 4. Shrine
 

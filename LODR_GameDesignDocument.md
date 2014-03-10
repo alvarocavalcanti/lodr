@@ -16,4 +16,22 @@ The player controls a hero that have a few attributes and can wander through a f
 
 ### Locations ###
 
-##### 1. The Village - Central hub. Here the hero can access all the other areas. The only options are to move.
+##### 1. The Village
+
+Central hub. Here the hero can access all the other areas. The only options are to move.
+
+##### 2. Market
+
+Random equipaments are available on each visit
+
+##### 3. Forest
+
+Random encounters
+
+##### 4. Shrine
+
+Heal wounds, ressurect after died
+
+##### 5. Look for Trouble
+
+Search for another heroes on the Town's Square and challenge them

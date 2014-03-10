@@ -9,6 +9,7 @@ Lodr::Application.routes.draw do
   delete 'signout'  => 'sessions#destroy'
 
   get 'village'   => 'game#village'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

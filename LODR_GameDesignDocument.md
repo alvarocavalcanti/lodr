@@ -4,6 +4,10 @@
 This game is inpired by [LORD](http://en.wikipedia.org/wiki/Legend_of_the_Red_Dragon), a text-based RPG. By inspired by it is meant to have some similarities, both on mechanics and on content, but as this is a study-project (for now) its scope will be strict, focusing more on the study needs more than the game's needs.
 
 ### Basic Plot/Game Dynamics ###
+Years ago there was a giant Ruby on The Village's Central Square, it was named The Dragon Ruby for it was responsible for keeping the deadly dragons from  entering the Great Green Vale, where the Village resides. But the Ruby has been taken away and ever since the dragons have returned, unleashing chaos.
+
+With the havock a few heroes have traveled to The Village, eager to recover the Ruby, slain a few Dragons and claim the Fame and Glory!
+
 The player controls a hero that have a few attributes and can wander through a few locations (The Village is the central hub). On each locations she can perform some actions, that take in account the hero's attributes.
 
 ### Hero's Attributes ###
@@ -47,7 +51,7 @@ Heal wounds, ressurect after died.
 
 ##### 5. Look for Trouble
 
-Search for another heroes on the Town's Square and challenge them.
+Search for another heroes on the Central Square and challenge them.
 
 ### Combat System ###
 

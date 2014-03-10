@@ -10,9 +10,14 @@ The player controls a hero that have a few attributes and can wander through a f
 
 | Attribute | Description |
 | --------- | ----------- |
-| Life Points | The higher, the better. If they go ZERO, the hero's dies |
-| Constitution | Adds to both ATK and DEF, when dealing and taking damage respectively |
-| Intelligence | Not sure when to use it yet. Maybe Magic Atacks. Who knows? |
+| Life Points (LP) | The higher, the better. If they go ZERO, the hero's dies |
+| Constitution (CON) | Adds to both ATK and DEF, when dealing and taking damage respectively |
+| Intelligence (INT) | Not sure when to use it yet. Maybe Magic Atacks. Who knows? |
+| Agility (AGI) | Adds to the probability of landing a critical blow and of scaping an encounter
+
+### Hero's Equipament ###
+
+The hero may equip one weapon and one armor. Each Weapon has a power (POW) and each armor has its rating (RAT).
 
 ### Locations ###
 
@@ -22,16 +27,37 @@ Central hub. Here the hero can access all the other areas. The only options are 
 
 ##### 2. Market
 
-Random equipaments are available on each visit
+Random equipaments are available on each visit.
 
 ##### 3. Forest
 
-Random encounters
+Random encounters. Upon engaging in one, the player may choose between three attack strategies:
+
+- Turn by Turn: Each turn must be resolved by the player, who has to choose between attack, drink a potion (if any) or try to escape (that takes into account the hero's AGI). _Rewards 100% XP_.
+- Fight to Death: The combat resolves automatically. But the hero does not drinks any potion or tries to escape. _Rewards 120% XP_.
+- Safe Fight: The combat resolves automatically. The hero keeps drinking health potions if any when the Life Points reach less than 20%, or tries to escape if there are no health potions.
 
 ##### 4. Shrine
 
-Heal wounds, ressurect after died
+Heal wounds, ressurect after died.
 
 ##### 5. Look for Trouble
 
-Search for another heroes on the Town's Square and challenge them
+Search for another heroes on the Town's Square and challenge them.
+
+### Combat System ###
+
+Pretty simple:
+
+1. ATK = CON + POW
+2. DEF = CON + RAT
+3. DMG = ATK - DEF
+4. New HP = HP - DMG
+
+Escaping:
+
+1. Hero's AGI * D6 >= Enemy's AGI * D6
+
+### Equipament Generation ###
+
+The equipament are generated when the hero enters the Market, or when a drop occurs. But the equippament will only come into existence (get added to the database) if the hero equips it. Also, all previous created equipament will be taken into account when generating a new one.

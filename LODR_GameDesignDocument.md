@@ -27,6 +27,16 @@ The hero may equip one weapon and one armor. Each Weapon has a power (POW) and e
 
 Pretty simple. Each level has 100 XP. Upon reaching a new level the player gains 1 point to distribute.
 
+### Hero's Classes ###
+
+The player may choose between the following classes, and their starting stats
+
+| Class | Initial Stats |
+| ----- | ------------- | 
+| Fighter | CON 5, INT 2, AGI 3 |
+| Ranger | CON 4, INT 2, AGI 4 |
+| Mage | CON 3, INT 4, AGI 3 |
+
 ### Locations ###
 
 ##### 1. The Village

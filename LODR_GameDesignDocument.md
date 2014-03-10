@@ -19,6 +19,10 @@ The player controls a hero that have a few attributes and can wander through a f
 
 The hero may equip one weapon and one armor. Each Weapon has a power (POW) and each armor has its rating (RAT).
 
+### Hero's Leveling ###
+
+Pretty simple. Each level has 100 XP. Upon reaching a new level the player gains 1 point to distribute.
+
 ### Locations ###
 
 ##### 1. The Village
@@ -58,6 +62,16 @@ Escaping:
 
 1. Hero's AGI * D6 >= Enemy's AGI * D6
 
+Drop:
+
+- Coins
+- Equippament
+- Health Points
+
 ### Equipament Generation ###
 
 The equipament are generated when the hero enters the Market, or when a drop occurs. But the equippament will only come into existence (get added to the database) if the hero equips it. Also, all previous created equipament will be taken into account when generating a new one.
+
+### Enemy Generation ###
+
+Takes into account the hero's current level.

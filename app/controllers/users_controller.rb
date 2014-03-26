@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+	skip_before_filter :require_login
+
 	def index
 	end
 
@@ -9,7 +11,8 @@ class UsersController < ApplicationController
 	def create
 		@user = User.new(user_params)
 		if @user.save
-			redirect_to @user
+			flash[:warning] = "Log in now to enter the realm."
+			redirect_to root_path
 		else 
 			render 'new'
 		end

@@ -84,66 +84,26 @@
 	"buffers":
 	[
 		{
-			"file": "game_controller.rb",
+			"file": "/Users/acavalca/Sites/lodr/test/controllers/game_controller_test.rb",
 			"settings":
 			{
-				"buffer_size": 73,
+				"buffer_size": 169,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sessions_controller.rb",
+			"file": "/Users/acavalca/Sites/lodr/Gemfile",
 			"settings":
 			{
-				"buffer_size": 670,
+				"buffer_size": 1252,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "application_controller.rb",
+			"file": "/Users/acavalca/Sites/lodr/config/database.yml",
 			"settings":
 			{
-				"buffer_size": 434,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "users_controller.rb",
-			"settings":
-			{
-				"buffer_size": 474,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/acavalca/Sites/lodr/app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 374,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/acavalca/Sites/lodr/app/views/game/_char_sheet.html.erb",
-			"settings":
-			{
-				"buffer_size": 1495,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/acavalca/Dropbox/Pagamentos_201403",
-			"settings":
-			{
-				"buffer_size": 481,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/acavalca/Sites/lodr/app/views/game/village.html.erb",
-			"settings":
-			{
-				"buffer_size": 941,
+				"buffer_size": 657,
 				"line_ending": "Unix"
 			}
 		}
@@ -180,28 +140,30 @@
 	},
 	"file_history":
 	[
-		"/Users/acavalca/Dropbox/Pagamentos_201403",
+		"/Users/acavalca/Documents/Code Review/Eduardo Tenorio/trains-eduardo/readme.md",
+		"/Users/acavalca/Sites/lodr/app/controllers/application_controller.rb",
 		"/Users/acavalca/Sites/lodr/app/controllers/sessions_controller.rb",
-		"/Users/acavalca/Sites/lodr/app/views/game/village.html.erb",
-		"/Users/acavalca/Sites/lodr/app/views/game/_navbar.html.erb",
 		"/Users/acavalca/Sites/lodr/app/controllers/game_controller.rb",
-		"/Users/acavalca/Sites/lodr/config/routes.rb",
+		"/Users/acavalca/Sites/lodr/app/controllers/users_controller.rb",
 		"/Users/acavalca/Sites/lodr/app/models/user.rb",
+		"/Users/acavalca/Sites/lodr/app/views/game/_char_sheet.html.erb",
+		"/Users/acavalca/Dropbox/Pagamentos_201403",
+		"/Users/acavalca/Sites/lodr/app/views/game/village.html.erb",
+		"/Users/acavalca/Sites/lodr/Gemfile",
+		"/Users/acavalca/Sites/lodr/test/controllers/game_controller_test.rb",
+		"/Users/acavalca/Sites/lodr/app/views/game/_navbar.html.erb",
+		"/Users/acavalca/Sites/lodr/config/routes.rb",
 		"/Users/acavalca/Sites/lodr/app/views/layouts/application.html.erb",
 		"/Users/acavalca/Sites/lodr/app/views/layouts/_navigation.html.erb",
-		"/Users/acavalca/Sites/lodr/app/views/game/_char_sheet.html.erb",
 		"/Users/acavalca/Sites/lodr/app/views/layouts/_navigation_links.html.erb",
 		"/Users/acavalca/Sites/lodr/db/migrate/20140310190414_add_stats_to_user.rb",
 		"/Users/acavalca/Sites/lodr/LODR_GameDesignDocument.md",
 		"/Users/acavalca/Dropbox/Public/Pagamentos_201403",
 		"/Users/acavalca/Sites/lodr/app/views/sessions/new.html.erb",
-		"/Users/acavalca/Sites/lodr/app/controllers/application_controller.rb",
 		"/Users/acavalca/Sites/lodr/db/migrate/20140307134256_add_name_to_user.rb",
-		"/Users/acavalca/Sites/lodr/app/controllers/users_controller.rb",
 		"/Users/acavalca/Sites/lodr/app/views/users/new.html.erb",
 		"/Users/acavalca/Sites/lodr/db/migrate/20140307141004_add_password_digest_to_users.rb",
 		"/Users/acavalca/Sites/lodr/app/views/users/show.html.erb",
-		"/Users/acavalca/Sites/lodr/Gemfile",
 		"/Users/acavalca/Sites/lodr/app/views/game/index.html.erb",
 		"/Users/acavalca/Sites/lodr/app/helpers/application_helper.rb",
 		"/Users/acavalca/Sites/lodr/config/application.rb",
@@ -249,6 +211,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".postgresql",
+			"sqlite3",
+			"tap",
+			"taps",
 			":integer",
 			"_R",
 			"- ",
@@ -331,23 +297,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "game_controller.rb",
+					"file": "/Users/acavalca/Sites/lodr/test/controllers/game_controller_test.rb",
 					"settings":
 					{
-						"buffer_size": 73,
+						"buffer_size": 169,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								68
+								82,
+								82
 							]
 						],
 						"settings":
@@ -362,100 +328,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "sessions_controller.rb",
+					"file": "/Users/acavalca/Sites/lodr/Gemfile",
 					"settings":
 					{
-						"buffer_size": 670,
+						"buffer_size": 1252,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "application_controller.rb",
-					"settings":
-					{
-						"buffer_size": 434,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								256
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "users_controller.rb",
-					"settings":
-					{
-						"buffer_size": 474,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/acavalca/Sites/lodr/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								348,
-								348
+								133,
+								133
 							]
 						],
 						"settings":
@@ -469,78 +353,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/Users/acavalca/Sites/lodr/app/views/game/_char_sheet.html.erb",
+					"buffer": 2,
+					"file": "/Users/acavalca/Sites/lodr/config/database.yml",
 					"settings":
 					{
-						"buffer_size": 1495,
+						"buffer_size": 657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1453,
-								1453
+								591,
+								591
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/acavalca/Dropbox/Pagamentos_201403",
-					"settings":
-					{
-						"buffer_size": 481,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								481,
-								481
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/Users/acavalca/Sites/lodr/app/views/game/village.html.erb",
-					"settings":
-					{
-						"buffer_size": 941,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								692,
-								692
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -592,6 +424,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"data",
+				"config/database.yml"
+			],
 			[
 				"usercontr",
 				"app/controllers/users_controller.rb"
